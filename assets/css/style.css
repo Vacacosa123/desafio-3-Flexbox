@@ -1,0 +1,92 @@
+/* ESTILOS GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+/* HEADER  */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  margin: 7px 0px;
+}
+
+/* MAIN  */
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 55px 150px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+main p {
+  margin: 1rem;
+}
+
+/* CARACTERISTICAS  */
+
+.caracteristicas {
+  text-align: center;
+  padding: 75px 0px;
+  background-color: #1e1a13;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box p {
+  font-size: 1.5em;
+}
+
+.box i {
+  padding-bottom: 1rem;
+}
+
+/* GALERIA  */
+
+.galery {
+  padding: 73px 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FOOTER  */
+
+footer {
+  text-align: center;
+  background-color: #1e1a13;
+}
+
+footer h3 {
+  font-weight: 300;
+  padding: 39px;
+}
